@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de cliente</title>
+</head>
+<body>
+	<header>
+		<div>
+			<a class="active" href="index.html">Página inicial</a>
+			<a href="exercicio1.html">1)Texto</a>
+			<a href="exercicio2.html">2)Tabela do Campeonato</a>
+			<a href="exercicio3.html">3)Lista do Supermercado</a>
+			<a href="exercicio4.html">4)Página de links</a>
+		</div>
+	</header>
+		<h1>Cadastro de Editoras</h1>
+	<div class="container">
+		<form style="margin-top: 30px;margin-left: 50px;" class=container>
+			<div  class="column-3 column label">
+				<label for="nm_editora">Editora : </label>	
+			</div>
+			<div class="column-9 column input">
+				<input type="text" id="nm_editora" name="editora"/>
+			</div>
+			<br>
+			<div class="column-3 column label">
+				<label for="ds_endereco">Endereço : </label>
+			</div>
+			<div class="column-9 column input">
+				<input type="text" id="ds_endereco" name="endereco"/>
+			</div>
+			<br>
+			<div class="column-3 column label">		
+				<label for="nr_cnpj">CNPJ : </label>
+			</div>
+			<div class="column-9 column input">
+				<input type="text" id="nr_cnpj" name="cnpj" maxlength="14" />
+			</div>
+			<br>
+			<div class="column-3 column label">
+				<label for="ds_site">Site : </label>
+			</div>
+			<div class="column-9 column input">
+				<input type="text" id="ds_site" name="site"/>
+			</div>
+			<br>
+			<div class="column-3 column label">
+				<label for="ds_email">Email : </label>
+			</div>
+			<div class="column-9 column input">
+				<input type="text" id="ds_email" name="email"/>
+			</div>
+			<br>
+			<div class="column-3 column label">
+				<label for="ds_telefone">Telefone : </label>
+			</div>
+			<div class="column-9 column input">
+				<input type="text" id="ds_telefone" name="telefone"/>
+			</div>
+			<br>
+			<div class="column-3 column label">
+				<label for="ds_contato">Nome para contato : </label>
+			</div>
+			<div class="column-9 column input">
+				<input type="text" id="ds_contato" name="contato"/>
+			</div>
+			<br>
+			<div class="column-3 column label">
+				<label for="nm_generos">Gênero de publicações : </label>
+			</div>
+			<div class="column-9 column select">
+				<select id="nm_generos">
+					<option value="policial">Policial</option>
+					<option value="ficcao">Ficção</option>
+					<option value="nao-ficcao">Não- Ficção</option>
+					<option value="religioso">Religioso</option>
+					<option value="esporte">Esporte</option>
+					<option value="profissional">Profissional</option>
+					<option value="outros">Outros</option>
+				</select>
+			</div>
+			<br>
+			<input type="submit" value="Enviar"/>
+			<input type="reset" value="Apagar"/>
+		</form>
+	</div>
+</body>
+</html>
